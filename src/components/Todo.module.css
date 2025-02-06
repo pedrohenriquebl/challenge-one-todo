@@ -1,0 +1,13 @@
+.todoContainer {
+    background: var(--gray-600);
+    height: 800px;
+}
+
+.todoContainer .todoContent {
+    max-width: 46rem;
+    margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        padding: 0 0.75rem;        
+    }
+}
